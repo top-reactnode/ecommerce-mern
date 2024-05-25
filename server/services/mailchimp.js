@@ -14,6 +14,7 @@ class MailchimpService {
   }
 }
 
+// Initialize mailchimp
 const mailchimp = new MailchimpService().init();
 
 exports.subscribeToNewsletter = async email => {
